@@ -1,18 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import AIspireLabsLogo from "../assets/AIspireLabsLogo.png";
 const Navbar = () => {
   return (
     <nav className="text-black p-4 mt-8">
       <div className="container mx-auto flex justify-around items-center">
         <div className="flex items-center space-x-2">
-          {/* <img
-            src="https://via.placeholder.com/40"
-            alt="Logo"
-            className="h-10 w-10"
-          /> */}
+          <img src={AIspireLabsLogo} alt="Logo" className="h-12 w-12" />
           <Link to={"/"}>
-            <span className="inline-block text-3xl">&#923;</span>
             <span className=" text-5xl font-semibold">AISPIRE LABS</span>
           </Link>
         </div>

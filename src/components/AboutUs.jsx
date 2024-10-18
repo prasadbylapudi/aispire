@@ -30,7 +30,7 @@ const AboutPage = () => {
       </div>
 
       {/* Google Form Section */}
-      <div className="bg-white shadow-md rounded-lg p-6 max-w-4xl w-full">
+      {/* <div className="bg-white shadow-md rounded-lg p-6 max-w-4xl w-full">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4 text-center">
           Get in Touch
         </h2>
@@ -51,7 +51,7 @@ const AboutPage = () => {
             Loading…
           </iframe>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

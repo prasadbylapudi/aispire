@@ -6,6 +6,7 @@ import "./App.css";
 import LandingPage from "./components/Landingpage";
 import UseCaseCards from "./components/UseCases";
 import AboutPage from "./components/AboutUs";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/use-cases" element={<UseCaseCards />} />
 
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

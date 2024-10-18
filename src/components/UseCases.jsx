@@ -20,6 +20,24 @@ const UseCaseCards = () => {
         "This is a description of the third use case. Provide further insights here.",
       icon: "💡",
     },
+    {
+      title: "Use Case 3",
+      description:
+        "This is a description of the third use case. Provide further insights here.",
+      icon: "💡",
+    },
+    {
+      title: "Use Case 3",
+      description:
+        "This is a description of the third use case. Provide further insights here.",
+      icon: "💡",
+    },
+    {
+      title: "Use Case 3",
+      description:
+        "This is a description of the third use case. Provide further insights here.",
+      icon: "💡",
+    },
   ];
 
   return (

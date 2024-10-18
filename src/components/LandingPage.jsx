@@ -1,6 +1,6 @@
 // src/components/LandingPage.js
 import React from "react";
-
+import { Link } from "react-router-dom";
 const LandingPage = () => {
   return (
     <div className="landing-page">
@@ -23,9 +23,12 @@ const LandingPage = () => {
         </div>
       </div>
       <div className="join-btn flex flex-col items-center justify-center">
-        <button className="mt-8 px-6 py-2 bg-purple-600 text-white text-lg font-semibold rounded-lg hover:bg-purple-700 transition duration-300">
-          JOIN WAITLIST
-        </button>
+        <Link to={"/contact"}>
+          {" "}
+          <button className="mt-8 px-6 py-2 bg-purple-600 text-white text-lg font-semibold rounded-lg hover:bg-purple-700 transition duration-300">
+            JOIN WAITLIST
+          </button>
+        </Link>
       </div>
       <div className="contact flex flex-row justify-center items-center p-6">
         <p className="copy-right">
